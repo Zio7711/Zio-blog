@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Zio Blog
 subtitle: ''
-description: ''
+description: 'This is the blog of Zio'
 keywords:
-author: John Doe
+author: Zio Tan
 language: en
 timezone: ''
 
