@@ -103,5 +103,5 @@ theme: zhaoo
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: <https://gitee.com/zio7711/blog>
-  branch: [master]
+  repo: git@gitee.com:zio7711/zio7711.git
+  branch: master
