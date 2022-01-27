@@ -86,8 +86,6 @@ Step 6: If you have more than one file with a conflict, go to the left side of t
 
 Step 7: Click Commit merge once you've resolved all of your merge conflicts. It merges the entire base branch into your head branch as a result of this. Click Merge pull request to combine your pull requests.
 
-
-
 #### Resolve using GitHub conflict editor
 
 It resolves all other forms of merge conflicts using this method. To push the update, you can use the command line or a program like GitHub desktop.
@@ -102,7 +100,7 @@ After the line "<<<<<<HEAD", you'll see the changes from the base branch.
 
 Step 4: Next you’ll see =======, which divides your changes from the changes in the other branch, followed by >>>>>>> BRANCH-NAME
 
-Step 5: Decide whether you want to simplt maintain your branch's changes, only the other branch's changes, or make a completely new modification that includes both branches' changes.
+Step 5: Decide whether you want to simply maintain your branch's changes, only the other branch's changes, or make a completely new modification that includes both branches' changes.
 
 Step 6: Delete the conflict markers, <<<<<, =====, >>>>> and make changes you want in the final merge. 
 
@@ -112,5 +110,16 @@ You may now combine the branches using the command line, or you can upload your 
 
 
 
+### 7. What is Git Stash?
+
+![Git stash](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220127193136.png)
 
 
+
+### 8. Differentiate Between Git Merge and Git Rebase
+
+
+
+![git merge](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220127193313.png)
+
+![git rebase](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220127193330.png)
