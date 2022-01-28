@@ -1,5 +1,5 @@
 ---
-title: Basic JavaScript Questions
+title: JavaScript Interview Questions (1)
 date: 2021-04-01 09:21:12
 tags: [JavaScript, beginners, interview]
 ---
