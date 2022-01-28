@@ -216,3 +216,66 @@ font-color= #fff;
 
 
 
+### 4. Explain Box Sizing Property
+
+Box Sizing property defines how the height and width of a box are calculated.
+
+- Content Box - The default width and height apply only to the element’s content. Padding and border are added outside the box.-
+- Padding Box - You add the dimensions to both element’s content and padding. It adds the border outside the box.
+- Border Box - The dimensions are added to the content, padding, and border. 
+
+
+
+### 5. What are the different ways to hide an Element using CSS?
+
+- display: none: Hides the content and doesn’t store it in the DOM
+
+- visibility: hidden: It adds the element to the DOM and takes up space. However, it is not visible to the user
+
+- position: absolute: You can make the element appear outside the screen
+
+
+
+### 6. What does ‘Important’ in CSS mean?
+
+The ‘important’ keyword indicates the highest precedence, and it overrides the cascaded property.
+
+```
+p {
+
+                color:blue !important;
+
+            }
+
+            #thing {
+
+                color: green;
+
+            }
+
+            
+<p id="thing">Will be BLUE.</p> 
+```
+
+
+
+### 7. What are CSS Sprites?
+
+- Since each image sends out an HTTP request separately, a web page with a high number of photos takes longer to load.
+- CSS sprites are used to minimize the loading time of a web page by combining multiple small pictures into a single image.
+- It decreases the number of HTTP requests and, as a result, the time it takes for pages to load.
+
+
+
+### 8. Which Property is used to Underline, Strikethrough, and Overline Text?
+
+- text-style
+
+- Text-type
+
+- text-decoration
+
+- Text-transform
+
+
+
