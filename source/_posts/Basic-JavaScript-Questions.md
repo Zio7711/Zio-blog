@@ -4,14 +4,14 @@ date: 2021-04-01 09:21:12
 tags: [JavaScript, beginners, interview]
 ---
 
-## How to test data types?
+## 1. How to test data types?
 
 1. type of: cannot distinguish array, object and null
 2. instance of: test its prototype chain to get its datatype, it cannot detect basic data types
 3. Object.protopeype.toString.call()
 4. constructor
 
-## Undefined VS. Null in JavaScript.
+## 2. Undefined VS. Null in JavaScript.
 
 1. **Definition:**
 
@@ -24,13 +24,13 @@ tags: [JavaScript, beginners, interview]
 
    **Undefined:** undefined
 
-## What is the result of Typeof NaN ?
+## 3. What is the result of Typeof NaN ?
 
 Number. `NaN` just means the specific value cannot be represented within the limitations of the numeric type (although that could be said for all numbers that have to be rounded to fit, but `NaN` is a special case).
 
 A specific `NaN` is not considered equal to another `NaN` because they may be different values. However, `NaN` is still a number type, just like 2718 or 31415.
 
-## What Does the && Operator Do?
+## 4. What Does the && Operator Do?
 
 The `&&` operator is the _AND_ operator and it finds the first falsy expression and returns it. If there are no falsy expressions then it returns the last expression.
 
@@ -66,7 +66,7 @@ condition && doSomething();
 
 Because, if `condition` is falsy then `doSomething();` won’t run because of short-circuiting.
 
-## What’s the Difference Between `==` and `===`?
+## 5. What’s the Difference Between `==` and `===`?
 
 The difference between `==` and `===` is that `==` only checks the content for equality and `===` checks both the content and the data type for equality.
 

@@ -4,11 +4,11 @@ date: 2021-06-01 18:28:16
 tags: [XSS, Cross-site Scripting, Web Security]
 ---
 
-## Introduction
+## 1. Introduction
 
 Cross-site scripting is an attack where some software applications take user's input in an insecure way. This happens via search fields in the web page, survey forms, cookies and other online web forms.
 
-## Reflected XSS
+## 2. Reflected XSS
 
 1. The website's results contain malicious scripts.
 
@@ -22,7 +22,7 @@ Cross-site scripting is an attack where some software applications take user's i
 
 3. When the above script is returned to the user, browser will execute it, and I can be as simple as crafting a link and inducing a user to click it, which could cause much more dangerous.
 
-## Stored XSS
+## 3. Stored XSS
 
 1. The malicious data is stored permanently on a database and is later accessed and run by the victims without having any knowledge of the attack. The classic example of stored XSS is a malicious scripted inserted by an attacker in a comment field on a blog, Social media, or in a forum post.
 
@@ -35,7 +35,7 @@ Cross-site scripting is an attack where some software applications take user's i
 3. After a request for the image has taken place the attacker can extract the victim's session identifier from the webserver log files.
 4. the most famous stored XSS bug was Samy worm which killed Myspace!!
 
-## DOM XSS
+## 4. DOM XSS
 
 1. DOM stands for Document Object Model of the page. 
 
@@ -45,7 +45,7 @@ Cross-site scripting is an attack where some software applications take user's i
    <script>document.write("<b>Current URL</b>" : " document.baseURL);</script>
    ```
 
-## Mitigation of XSS
+## 5. Mitigation of XSS
 
 ### Input validation
 
@@ -67,7 +67,7 @@ Cross-site scripting is an attack where some software applications take user's i
 
 - set http-only via Set-Cookie HTTP response header
 
-## Some site for learning CSS 
+## 6. Some site for learning CSS 
 
 1. Google XSS Game
 2. DVWA
