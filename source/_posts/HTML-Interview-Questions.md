@@ -4,6 +4,7 @@ date: 2022-01-28 00:02:12
 tags: [HTML, interview, frontend]
 banner_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmrtnq32hj21hc0u0wnl.jpg
 index_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmrtnq32hj21hc0u0wnl.jpg
+categories: Interview Questions
 ---
 
 ### 1. What Is an Attribute in HTML?

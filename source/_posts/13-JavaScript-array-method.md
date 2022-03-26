@@ -4,6 +4,7 @@ date: 2022-02-10 21:03:09
 index_img: https://tva2.sinaimg.cn/large/87c01ec7gy1frmroo4iggj21hc0u0th9.jpg
 banner_img: https://tva2.sinaimg.cn/large/87c01ec7gy1frmroo4iggj21hc0u0th9.jpg
 tags: [array, JavaScript, method]
+categories: JavaScript Fundamentals
 ---
 
 Let’s talk about Array methods.

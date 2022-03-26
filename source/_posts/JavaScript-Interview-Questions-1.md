@@ -1,6 +1,7 @@
 ---
 title: JavaScript Interview Questions (1)
 date: 2021-04-01 09:21:12
+categories: Interview Questions
 tags: [JavaScript, beginners, interview]
 banner_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmrxuzha8j21hc0u0gur.jpg
 index_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmrxuzha8j21hc0u0gur.jpg

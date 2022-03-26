@@ -4,6 +4,7 @@ date: 2022-01-28 11:39:06
 tags: [CSS, Interview, frontend develper, web developer]
 banner_img: https://tva3.sinaimg.cn/large/0060lm7Tly1ftg6omnqa4j31hc0u010z.jpg
 index_img: https://tva3.sinaimg.cn/large/0060lm7Tly1ftg6omnqa4j31hc0u010z.jpg
+categories: Interview Questions
 ---
 
 ### 1. What is the best way to include CSS Styling in HTML?

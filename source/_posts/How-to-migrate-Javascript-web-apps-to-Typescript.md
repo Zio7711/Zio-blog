@@ -4,6 +4,7 @@ date: 2022-02-04 19:45:48
 tags: [Typescript, JavaScript]
 banner_img: https://tva4.sinaimg.cn/large/87c01ec7gy1frmrs543ivj21hc0u0ths.jpg
 index_img: https://tva4.sinaimg.cn/large/87c01ec7gy1frmrs543ivj21hc0u0ths.jpg
+categories: Typescript
 ---
 
 Quite fascinated with the “Typescript” at first, I quickly realized that it is just my old pal JavaScript with advanced implementation. In technical terms, TypeScript is a programming language based on JavaScript. JS lacked some necessary features such as object orientation, type-checking, and compile-time error checks needed to develop more extensive applications.

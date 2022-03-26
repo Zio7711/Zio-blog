@@ -4,6 +4,7 @@ date: 2022-02-06 19:42:04
 tags: [JavaScript, Code, Web]
 index_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmmu5g157j21hc0u0x6q.jpg
 banner_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmmu5g157j21hc0u0x6q.jpg
+categories: JavaScript Fundamentals
 ---
 
 # Shuffle an Array

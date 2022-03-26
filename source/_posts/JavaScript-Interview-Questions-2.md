@@ -4,6 +4,7 @@ date: 2022-01-28 11:51:54
 banner_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmn0empcsj21kw0w0e87.jpg
 index_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmn0empcsj21kw0w0e87.jpg
 tags: [Interview, Javascript]
+categories: Interview Questions
 ---
 
 ### 1. What are the various Data Types in JavaScript?

@@ -4,6 +4,9 @@ date: 2022-01-27 15:03:50
 tags: [Git, interview]
 banner_img: https://tva4.sinaimg.cn/large/87c01ec7gy1frmru22eeej21hc0u0aj6.jpg
 index_img: https://tva4.sinaimg.cn/large/87c01ec7gy1frmru22eeej21hc0u0aj6.jpg
+categories:
+  - [Interview Questions]
+  - [Github]
 ---
 
 ### 1. What is ‘Version Control System’?

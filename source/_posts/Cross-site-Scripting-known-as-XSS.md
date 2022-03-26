@@ -4,6 +4,7 @@ date: 2021-06-01 18:28:16
 tags: [XSS, Cross-site Scripting, Web Security]
 banner_img: https://tva1.sinaimg.cn/large/0060lm7Tly1ftg6omusg9j31hc0u010h.jpg
 index_img: https://tva1.sinaimg.cn/large/0060lm7Tly1ftg6omusg9j31hc0u010h.jpg
+categories: Frontend Security
 ---
 
 ## 1. Introduction

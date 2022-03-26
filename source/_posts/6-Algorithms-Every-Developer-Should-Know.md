@@ -4,6 +4,7 @@ date: 2022-02-06 19:39:52
 index_img: https://tva4.sinaimg.cn/large/0060lm7Tly1ftg6oh633dj31hc0u0qbh.jpg
 banner_img: https://tva4.sinaimg.cn/large/0060lm7Tly1ftg6oh633dj31hc0u0qbh.jpg
 tags: [Algorithms, web developer]
+categories: Algorithms
 ---
 
 # 1. Sorting Algorithm:

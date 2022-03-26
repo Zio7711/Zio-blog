@@ -4,6 +4,7 @@ date: 2022-01-25 21:37:53
 tags: [Interview, State Street Corp]
 banner_img: https://tva4.sinaimg.cn/large/87c01ec7gy1frmmyljiepj21kw0w0qvf.jpg
 index_img: https://tva4.sinaimg.cn/large/87c01ec7gy1frmmyljiepj21kw0w0qvf.jpg
+categories: Interview Questions
 ---
 
 Today, I attended an interview with State Street Corp crew, here are some questions that I can remember.
