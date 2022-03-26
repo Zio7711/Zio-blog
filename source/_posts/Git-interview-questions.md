@@ -2,6 +2,8 @@
 title: Git interview questions
 date: 2022-01-27 15:03:50
 tags: [Git, interview]
+banner_img: https://tva4.sinaimg.cn/large/87c01ec7gy1frmru22eeej21hc0u0aj6.jpg
+index_img: https://tva4.sinaimg.cn/large/87c01ec7gy1frmru22eeej21hc0u0aj6.jpg
 ---
 
 ### 1. What is ‘Version Control System’?
@@ -14,7 +16,7 @@ it is a program that records any changes to a file or set of data so that it is 
 
 Centralized Version Control system:
 
-- It stores all file  versions on a central server.
+- It stores all file versions on a central server.
 - No developer has complete copy of the local system's files.
 - If the project's central server fails, you will lose all the project's data.
 
@@ -24,15 +26,11 @@ Distributed Version Control system:
 - Improves the ability to work offline and eliminates the need for a single backup location.
 - Even if the server crashes, there is no danger.
 
-
-
 ### 3. Explain Git Push and Git Pull
 
 **Git push**: is a command that pushes the contents of a local repository to a remote repository. It runs a push after it has changed a local repo to share the changes with remote team members.
 
 **Git pull**: is a command that pulls changes from a repository and merges them into the local repository. It's made up of two commands: git fetch followed by git merge.
-
-
 
 ### 4. Name a few Git Commands and function
 
@@ -47,11 +45,9 @@ Distributed Version Control system:
 - Git Push - Upload content from the local repository to a remote repository
 - Git Pull - Fetch and download content from a remote repository
 
-
-
 ### 5. Explain the Difference Between Git Pull and Git Fetch
 
-#### Git Fetch 
+#### Git Fetch
 
 - It downloads only new data from a remote repository using Git fetch
 - It does not include any of this new information in your working files
@@ -61,8 +57,6 @@ Distributed Version Control system:
 
 - Git pulls new data and integrates it with the current working files, updating the current HEAD branch with the latest modifications from the remote server
 - It attempts to combine remote modifications with those made locally
-
-
 
 ### 6. What is a Merge Conflict in Git and how can it be resolved?
 
@@ -76,9 +70,9 @@ Step 1: Under your repository name, click Pull requests
 
 Step 2: Click the pull request with the merge conflict you'd like to resolve in the "Pull Requests" list. Click Resolve conflicts near the bottom of your pull request.
 
-Step 3: Decide whether you want to maintain just your branch's changes, only the other branch's changes, or make a completely new modification that includes both branches' changes. 
+Step 3: Decide whether you want to maintain just your branch's changes, only the other branch's changes, or make a completely new modification that includes both branches' changes.
 
-Step 4: Delete the conflict markers and make the changes you want in the final merge. 
+Step 4: Delete the conflict markers and make the changes you want in the final merge.
 
 Step 5: If your file has over one merge conflict, scroll down to the next set of conflict markers and repeat steps four and five to resolve the issue. Mark the file as resolved once you've resolved all the conflicts.
 
@@ -102,23 +96,17 @@ Step 4: Next you’ll see =======, which divides your changes from the changes i
 
 Step 5: Decide whether you want to simply maintain your branch's changes, only the other branch's changes, or make a completely new modification that includes both branches' changes.
 
-Step 6: Delete the conflict markers, <<<<<, =====, >>>>> and make changes you want in the final merge. 
+Step 6: Delete the conflict markers, <<<<<, =====, >>>>> and make changes you want in the final merge.
 
-Step 7: Add or stage your changes. Commit your changes with a comment. 
+Step 7: Add or stage your changes. Commit your changes with a comment.
 
 You may now combine the branches using the command line, or you can upload your changes to your [GitHub](https://www.simplilearn.com/tutorials/git-tutorial/what-is-github) remote repository and merge them in a pull request.
-
-
 
 ### 7. What is Git Stash?
 
 ![Git stash](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220127193136.png)
 
-
-
 ### 8. Differentiate Between Git Merge and Git Rebase
-
-
 
 ![git merge](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220127193313.png)
 

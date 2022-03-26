@@ -2,6 +2,8 @@
 title: Closure
 date: 2021-06-05 18:30:29
 tags: [Closure, JavaScript]
+index_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmrtcq1lfj21hc0u0qc1.jpg
+banner_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmrtcq1lfj21hc0u0qc1.jpg
 ---
 
 ## 1. What is a Closure?

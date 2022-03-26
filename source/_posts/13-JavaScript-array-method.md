@@ -1,6 +1,8 @@
 ---
 title: 13 JavaScript array method
 date: 2022-02-10 21:03:09
+index_img: https://tva2.sinaimg.cn/large/87c01ec7gy1frmroo4iggj21hc0u0th9.jpg
+banner_img: https://tva2.sinaimg.cn/large/87c01ec7gy1frmroo4iggj21hc0u0th9.jpg
 tags: [array, JavaScript, method]
 ---
 
@@ -24,8 +26,6 @@ So here I have described the **13 most used array methods** in easy words.
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210210804.png)
 
-
-
 # map
 
 - It is **used to map** the array data
@@ -34,8 +34,6 @@ So here I have described the **13 most used array methods** in easy words.
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210210835.png)
 
-
-
 # filter
 
 - Used to **filters the array** based on the given condition
@@ -43,8 +41,6 @@ So here I have described the **13 most used array methods** in easy words.
 - **Return an empty array** if array elements do not match with the given condition
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210210859.png)
-
-
 
 # find
 
@@ -55,16 +51,12 @@ So here I have described the **13 most used array methods** in easy words.
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210211206.png)
 
-
-
 # findIndex
 
 - Similar to find() but **returns index** instead of element
 - **Returns -1** If does not passes the test
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210211237.png)
-
-
 
 # reduce
 
@@ -74,15 +66,11 @@ So here I have described the **13 most used array methods** in easy words.
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210211253.png)
 
-
-
 # reduceRight
 
 - Same as reduce, but reduceRight() works from **right-to-left** in the array
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210211313.png)
-
-
 
 # every
 
@@ -91,16 +79,12 @@ So here I have described the **13 most used array methods** in easy words.
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210211656.png)
 
-
-
 # some
 
 - Check if **some array values** pass a condition
 - It returns true or false
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210211704.png)
-
-
 
 # indexOf
 
@@ -109,15 +93,11 @@ So here I have described the **13 most used array methods** in easy words.
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210211519.png)
 
-
-
 # lastIndexOf
 
 - Same as indexOf(), but returns the index of the **last occurrence** of the specified element
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210211541.png)
-
-
 
 # includes
 
@@ -125,8 +105,6 @@ So here I have described the **13 most used array methods** in easy words.
 - **Returns true or false** based on the presence of element in the array
 
 ![](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220210211603.png)
-
-
 
 # Array.from
 

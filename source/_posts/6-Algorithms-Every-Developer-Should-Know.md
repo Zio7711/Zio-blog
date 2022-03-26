@@ -1,6 +1,8 @@
 ---
 title: 6 Algorithms Every Developer Should Know
 date: 2022-02-06 19:39:52
+index_img: https://tva4.sinaimg.cn/large/0060lm7Tly1ftg6oh633dj31hc0u0qbh.jpg
+banner_img: https://tva4.sinaimg.cn/large/0060lm7Tly1ftg6oh633dj31hc0u0qbh.jpg
 tags: [Algorithms, web developer]
 ---
 
@@ -10,10 +12,10 @@ What exactly is sorting?- It is the algorithm that arranges the order of the ite
 
 **Important Sorting Algorithms-**
 
-- *Bubble Sort:* Bubble Sort is the most basic sorting algorithm, and it works by repeatedly swapping adjacent elements if they are out of order.
-- *Merge Sort:* Merge sort is a sorting technique that uses the **divide and conquer** strategy.
-- *Quicksort:* Quicksort is a popular sorting algorithm that performs n log n comparisons on average when sorting an array of n elements. It is a more efficient and faster sorting algorithm.
-- *Heap Sort:* Heap sort works by visualizing the array elements as a special type of complete binary tree known as a heap.
+- _Bubble Sort:_ Bubble Sort is the most basic sorting algorithm, and it works by repeatedly swapping adjacent elements if they are out of order.
+- _Merge Sort:_ Merge sort is a sorting technique that uses the **divide and conquer** strategy.
+- _Quicksort:_ Quicksort is a popular sorting algorithm that performs n log n comparisons on average when sorting an array of n elements. It is a more efficient and faster sorting algorithm.
+- _Heap Sort:_ Heap sort works by visualizing the array elements as a special type of complete binary tree known as a heap.
 
 # 2. Searching Algorithm:
 
@@ -21,9 +23,9 @@ What exactly is searching?- It is the algorithm that finds an element in a data 
 
 **Important Searching Algorithms-**
 
-- *Binary Search:* Binary search employs the **divide and conquer** strategy, in which a sorted list is divided into two halves and the item is compared to the list’s middle element. If a match is found, the middle element’s location is returned.
-- *Breadth-First Search(BFS):* Breadth-first search is a graph traversal algorithm that begins at the root node and explores all neighboring nodes.
-- *Depth-First Search(DFS):* The depth-first search (DFS) algorithm begins with the first node of the graph and proceeds to go deeper and deeper until we find the goal node or node with no children.
+- _Binary Search:_ Binary search employs the **divide and conquer** strategy, in which a sorted list is divided into two halves and the item is compared to the list’s middle element. If a match is found, the middle element’s location is returned.
+- _Breadth-First Search(BFS):_ Breadth-first search is a graph traversal algorithm that begins at the root node and explores all neighboring nodes.
+- _Depth-First Search(DFS):_ The depth-first search (DFS) algorithm begins with the first node of the graph and proceeds to go deeper and deeper until we find the goal node or node with no children.
 
 # 3. Dynamic Programming:
 
@@ -35,12 +37,12 @@ Recursion is a problem-solving technique in which the solution is dependent on s
 
 **Every recursive program follows the same basic sequence of steps:**
 
-- *Set up the algorithm. Recursive programs frequently require a seed value, to begin with. This is accomplished by either using a parameter passed to the function or by providing a non-recursive gateway function that sets up the seed values for the recursive calculation.*
-- *Check to see if the current value(s) being processed correspond to the base case. If so, process the value and return it.*
-- *Rephrase the solution in terms of a smaller or simpler sub-problem or sub-problems.*
-- *Apply the algorithm to the sub-problem.*
-- *In order to formulate an answer, combine the results.*
-- *Return the results.*
+- _Set up the algorithm. Recursive programs frequently require a seed value, to begin with. This is accomplished by either using a parameter passed to the function or by providing a non-recursive gateway function that sets up the seed values for the recursive calculation._
+- _Check to see if the current value(s) being processed correspond to the base case. If so, process the value and return it._
+- _Rephrase the solution in terms of a smaller or simpler sub-problem or sub-problems._
+- _Apply the algorithm to the sub-problem._
+- _In order to formulate an answer, combine the results._
+- _Return the results._
 
 # 5. Divide and Conquer:
 
@@ -48,9 +50,9 @@ A divide-and-conquer algorithm recursively divides a problem into two or more su
 
 **The Divide and Conquer algorithm consists of a dispute using the three steps listed below.**
 
-1. **Divide** *the original problem into sub-problems.*
-2. **Conquer**: *Solve each sub-problem one at a time, recursively.*
-3. **Combine**: *Put the solutions to the sub-problems together to get the solution to the whole problem.*
+1. **Divide** _the original problem into sub-problems._
+2. **Conquer**: _Solve each sub-problem one at a time, recursively._
+3. **Combine**: _Put the solutions to the sub-problems together to get the solution to the whole problem._
 
 # 6. Hashing:
 

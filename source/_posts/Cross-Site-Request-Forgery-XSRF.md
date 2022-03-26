@@ -2,6 +2,8 @@
 title: Cross-Site Request Forgery (XSRF)
 date: 2021-06-02 18:22:18
 tags: [Web Security, XSRF/CSRF]
+index_img: https://tva2.sinaimg.cn/large/87c01ec7gy1frmr2kh3xkj21kw0w0e8e.jpg
+banner_img: https://tva2.sinaimg.cn/large/87c01ec7gy1frmr2kh3xkj21kw0w0e8e.jpg
 ---
 
 ## 1. Definition

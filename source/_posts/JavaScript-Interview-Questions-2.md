@@ -1,14 +1,14 @@
 ---
 title: JavaScript Interview Questions (2)
 date: 2022-01-28 11:51:54
-tags:
+banner_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmn0empcsj21kw0w0e87.jpg
+index_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmn0empcsj21kw0w0e87.jpg
+tags: [Interview, Javascript]
 ---
 
 ### 1. What are the various Data Types in JavaScript?
 
 ![Data types in JS](https://cdn.jsdelivr.net/gh/zio7711/blog-pic/20220128115349.png)
-
-
 
 ### 2. What is Callback in JavaScript?
 
@@ -17,8 +17,6 @@ tags:
 A callback is a JavaScript function that is sent as an argument or parameter to another function.
 
 You call this function whenever the function to which it is provided is called.
-
-
 
 ### 3. What’s the difference between Function Declaration and Function Expression?
 
@@ -34,8 +32,6 @@ function abc(){
 
 Within the main JavaScript code, it declares this as a separate statement. It is possible to invoke it before the function has been defined. It provides improved code readability.
 
-
-
 - Function Expression
 
 ```
@@ -46,11 +42,9 @@ let a = function abc(){
 }
 ```
 
-It is created inside an expression or some other construct. It is generally used when there is a need for a conditional declaration of a function. 
+It is created inside an expression or some other construct. It is generally used when there is a need for a conditional declaration of a function.
 
-
-
-### 4. What do you understand about Cookies in JavaScript? 
+### 4. What do you understand about Cookies in JavaScript?
 
 A cookie is a little piece of data sent by a website and kept on the user's computer by the web browser that was used to access the page.
 
@@ -69,8 +63,6 @@ function delete_cookie(name) {
 
     }
 ```
-
-
 
 ### 5. What are Closures in JavaScript?
 
@@ -96,15 +88,11 @@ function outer_func()
 }
 ```
 
-
-
 A closure has three scope chains –
 
 - Has access to the variable defined within its curly braces, which is its scope.
 - Has access to the outer functions' variables.
 - Has the ability to access global variables.
-
-
 
 ### 6. What are Imports and Exports in JavaScript?
 
@@ -126,9 +114,9 @@ export function diag(x, y) {
 }
 ```
 
-This file exports two functions that calculate the squares and diagonal of the input respectively. 
+This file exports two functions that calculate the squares and diagonal of the input respectively.
 
-- #### Import 
+- #### Import
 
 ```
 import { square, diag } from "calc";
@@ -141,12 +129,10 @@ console.log(square(4)); // 16
 
 Here you import those functions and pass input to those functions to calculate square and diagonal.
 
-
-
 ### 7. What is the difference between Undefined, Undeclared, and Null in JavaScript?
 
 ```
-var x 
+var x
 
 console.log(x) //Undefined variable
 
@@ -157,15 +143,11 @@ console.log(y) //Null Variable
 console.log(z) //Undeclared Variable
 ```
 
-
-
 - Undefined - Undefined means a variable has been declared but a value has not yet been assigned to that variable.
 
 - Null - Null is an assignment value that you can assign to any variable that is meant to contain no value.
 
 - Undeclared - Variables that are not declared or that do not exist in a program or application.
-
-
 
 ### 8. What is the best way to remove Duplicates from a JavaScript Array?
 

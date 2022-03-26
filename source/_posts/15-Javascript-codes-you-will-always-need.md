@@ -2,6 +2,8 @@
 title: 15 JavaScript codes you will always need
 date: 2022-02-06 19:42:04
 tags: [JavaScript, Code, Web]
+index_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmmu5g157j21hc0u0x6q.jpg
+banner_img: https://tva1.sinaimg.cn/large/87c01ec7gy1frmmu5g157j21hc0u0x6q.jpg
 ---
 
 # Shuffle an Array
@@ -9,32 +11,29 @@ tags: [JavaScript, Code, Web]
 Shuffling an array is super easy with `sort` and `random` methods.
 
 ```javascript
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());console.log(shuffleArray([1, 2, 3, 4]));
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log(shuffleArray([1, 2, 3, 4]));
 // Result: [ 1, 4, 3, 2 ]
 ```
-
-
 
 # Check if Date is Valid
 
 Use the following snippet to check if a given date is valid or not.
 
 ```js
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());isDateValid("December 17, 1995 03:24:00");
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+isDateValid('December 17, 1995 03:24:00');
 // Result: true
 ```
-
-
 
 # Copy to Clipboard
 
 Easily copy any text to clipboard using `navigator.clipboard.writeText`.
 
 ```js
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);copyToClipboard("Hello World");
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+copyToClipboard('Hello World');
 ```
-
-
 
 # Find the day of the year
 
@@ -42,11 +41,10 @@ Find which is the day by a given date.
 
 ```js
 const dayOfYear = (date) =>
-  Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);dayOfYear(new Date());
+  Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+dayOfYear(new Date());
 // Result: 272
 ```
-
-
 
 # Capitalize a String
 
@@ -57,8 +55,6 @@ const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1)capitalize("
 // Result: Follow for more
 ```
 
-
-
 # Find the number of days between two days
 
 Find the days between 2 given days using the following snippet.
@@ -68,39 +64,43 @@ const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getT
 // Result: 366
 ```
 
-
-
 # Clear All Cookies
 
 You can easily clear all cookies stored on a web page by accessing the cookie using `document.cookie` and clearing it.
 
 ```js
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const clearCookies = document.cookie
+  .split(';')
+  .forEach(
+    (cookie) =>
+      (document.cookie = cookie
+        .replace(/^ +/, '')
+        .replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`))
+  );
 ```
-
-
 
 # Generate Random Hex
 
 You can generate random hex colors with `Math.random` and `padEnd` properties.
 
 ```js
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;console.log(randomHex());
+const randomHex = () =>
+  `#${Math.floor(Math.random() * 0xffffff)
+    .toString(16)
+    .padEnd(6, '0')}`;
+console.log(randomHex());
 // Result: #92b008
 ```
-
-
 
 # Remove Duplicated from Array
 
 You can easily remove duplicates with `Set` in JavaScript. It's a lifesaver.
 
 ```js
-const removeDuplicates = (arr) => [...new Set(arr)];console.log(removeDuplicates([1, 2, 3, 3, 4, 4, 5, 5, 6]));
+const removeDuplicates = (arr) => [...new Set(arr)];
+console.log(removeDuplicates([1, 2, 3, 3, 4, 4, 5, 5, 6]));
 // Result: [ 1, 2, 3, 4, 5, 6 ]
 ```
-
-
 
 # Get Query Params from URL
 
@@ -108,70 +108,75 @@ You can easily retrieve query params from a URL either bypassing `window.locatio
 
 ```js
 const getParameters = (URL) => {
-  URL = JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+  URL = JSON.parse(
+    '{"' +
+      decodeURI(URL.split('?')[1])
+        .replace(/"/g, '\\"')
+        .replace(/&/g, '","')
+        .replace(/=/g, '":"') +
+      '"}'
+  );
   return JSON.stringify(URL);
-};getParameters(window.location)
+};
+getParameters(window.location);
 // Result: { search : "easy", page : 3 }
 ```
-
-
 
 # Log Time from Date
 
 We can log time, in the format `hour::minutes::seconds` from a given date.
 
 ```js
-const timeFromDate = date => date.toTimeString().slice(0, 8);console.log(timeFromDate(new Date(2021, 0, 10, 17, 30, 0))); 
+const timeFromDate = (date) => date.toTimeString().slice(0, 8);
+console.log(timeFromDate(new Date(2021, 0, 10, 17, 30, 0)));
 // Result: "17:30:00"
 ```
-
-
 
 # Check if a number is even or odd
 
 ```js
-const isEven = num => num % 2 === 0;console.log(isEven(2)); 
+const isEven = (num) => num % 2 === 0;
+console.log(isEven(2));
 // Result: True
 ```
-
-
 
 # Find Average of Numbers
 
 Find the average between multiple numbers using `reduce`method.
 
 ```js
-const average = (...args) => args.reduce((a, b) => a + b) / args.length;average(1, 2, 3, 4);
+const average = (...args) => args.reduce((a, b) => a + b) / args.length;
+average(1, 2, 3, 4);
 // Result: 2.5
 ```
-
-
 
 # Check if the array is empty
 
 A simple one-liner to check if an array is empty, will return `true`or `false`.
 
 ```js
-const isNotEmpty = arr => Array.isArray(arr) && arr.length > 0;isNotEmpty([1, 2, 3]);
+const isNotEmpty = (arr) => Array.isArray(arr) && arr.length > 0;
+isNotEmpty([1, 2, 3]);
 // Result: true
 ```
-
-
 
 # Get Selected Text
 
 Get the text the user has selected using inbuilt `getSelection`property.
 
 ```js
-const getSelectedText = () => window.getSelection().toString();getSelectedText();
+const getSelectedText = () => window.getSelection().toString();
+getSelectedText();
 ```
-
-
 
 # Detect Dark Mode
 
 Check if a user’s device is in dark mode with the following code.
 
 ```js
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matchesconsole.log(isDarkMode) // Result: True or False
+const isDarkMode =
+  window.matchMedia &&
+  window
+    .matchMedia('(prefers-color-scheme: dark)')
+    .matchesconsole.log(isDarkMode); // Result: True or False
 ```

