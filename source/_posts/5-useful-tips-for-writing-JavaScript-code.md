@@ -1,6 +1,8 @@
 ---
 title: 5 useful tips for writing JavaScript code
 date: 2021-07-11 21:43:35
+index_img: /img/1_img.jpg
+banner_img: /img/1_img.jpg
 tags: [tips, writing code, JavaScript]
 ---
 
