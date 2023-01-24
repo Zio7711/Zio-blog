@@ -74,7 +74,7 @@ Cross-site scripting is an attack where some software applications take user's i
 
 - set http-only via Set-Cookie HTTP response header
 
-## 6. Some site for learning CSS
+## 6. Some site for learning XSS
 
 1. Google XSS Game
 2. DVWA

@@ -16,7 +16,7 @@ categories: Interview Questions
 
 - The marquee is used to scroll the text on the webpage.
 - It automatically scrolls the image or text up, down, left, or right.
-- You must use <marquee> tags to apply for a marquee.
+- You must use \<marquee> tags to apply for a marquee.
 
 ### 3. What is Semantic HTML? and how does it work?
 
